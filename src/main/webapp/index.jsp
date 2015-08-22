@@ -14,8 +14,6 @@
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <!-- <script src="js/jquery.typeahead.min.js"></script> -->
     <script src="js/jquery-ui.min.js"></script>
-   	
-
     <script>
     var map;
     var markers = [];
