@@ -177,7 +177,7 @@
                 	if($("#city").val())
                 		$('#state').autocomplete("option", { source: data.states });
                 	else	
-                	$.get('/maplookup/autocomplete/state/'+$("#state").val(),function(searchList){
+                	$.get('/autocomplete/state/'+$("#state").val(),function(searchList){
                 		$('#state').autocomplete("option", { source: searchList });
                 	});
                 }
@@ -186,7 +186,7 @@
 	                if($("#state").val())	
 	                		$('#city').autocomplete("option", { source: data.city });
 	                else
-	                	$.get('/maplookup/autocomplete/city/'+$("#city").val(),function(searchList){
+	                	$.get('/autocomplete/city/'+$("#city").val(),function(searchList){
 	                		$('#city').autocomplete("option", { source: searchList });
 	                	});
                 }
@@ -196,7 +196,7 @@
                 			$('#zip').autocomplete("option", { source: data.zip });
 	                	else
 	                	
-	                    	$.get('/maplookup/autocomplete/zip/'+$("#zip").val(),function(searchList){
+	                    	$.get('/autocomplete/zip/'+$("#zip").val(),function(searchList){
 	                    		$('#zip').autocomplete("option", { source: searchList });
 	                    	});
 	               }
