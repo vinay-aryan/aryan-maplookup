@@ -20,7 +20,7 @@
  <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
   		<!--  Mysql  start  -->
   		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://127.6.97.2:3306/maplookupdb" />
+        <property name="url" value="jdbc:mysql://localhost:3306/maplookupdb" />
         <!-- Mysql end   -->
         <!--  sql server  start  -->
     <!--  sql server end  -->
